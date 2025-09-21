@@ -5,13 +5,14 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-      <div className="App">
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-          </Routes>
-        </BrowserRouter>
-      </div>
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/media-store-web" element={<HomePage />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

@@ -1,0 +1,29 @@
+.department-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.department {
+    text-align: center;
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.department-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.department:hover {
+    background-color: rgba(255, 213, 0, 0.3);
+    cursor: pointer;
+    transform: scale(1.08); /* Slight zoom for the whole card */
+}
+
+.department:hover .department-icon {
+    transform: scale(1.2); /* Smooth icon growth */
+}

@@ -6,7 +6,11 @@ import AboutUs from "../components/AboutSection";
 import ImageContainer from "../components/ImageContainer";
 
 import Img1 from "../assets/images/view/1.png";
-import WhatsAppButton from "../components/WhatsappButton"; // import the image
+import WhatsAppButton from "../components/WhatsappButton";
+import Footer from "../components/Footer";
+import OurClients from "../components/OurClients";
+import DepartmentList from "../components/DepartmentsEmails";
+import ContactForm from "../components/ContactForm"; // import the image
 
 const HomePage = () => {
   return (
@@ -16,6 +20,11 @@ const HomePage = () => {
       <ServicesSection />
       <ImageContainer imageUrl={Img1} />
       <AboutUs />
+      <OurClients />
+      <ContactForm />
+
+      <DepartmentList />
+      <Footer />
 
       <WhatsAppButton />
     </div>

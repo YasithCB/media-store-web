@@ -11,7 +11,7 @@
     background: #099c48;
     color: #fff !important;
     border-radius: 50%;
-    box-shadow: 0 8px 20px rgba(11, 78, 43, 0.25);
+    box-shadow: 0 8px 20px rgba(11, 78, 43, 0.4);
     text-decoration: none;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
@@ -20,7 +20,7 @@
 
 .whatsapp-fab:hover {
     transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 14px 30px rgba(11, 78, 43, 0.32);
+    box-shadow: 0 14px 30px rgba(11, 78, 43, 0.6);
 }
 
 .whatsapp-icon {
@@ -33,7 +33,7 @@
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    background: rgba(82,196,131,0.15);
+    background: rgba(82,196,131,0.9);
     z-index: -1;
     animation: whatsapp-pulse 2.6s infinite ease-out;
 }

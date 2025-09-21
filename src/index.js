@@ -10,6 +10,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 // ✅ Import the registration helper
 import * as serviceWorkerRegistration from "./serviceworkerRegistration";
+// ✅ Register the service worker for PWA
+serviceWorkerRegistration.register();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -18,8 +20,5 @@ root.render(
     <App />
   </React.StrictMode>,
 );
-
-// ✅ Register the service worker for PWA
-serviceWorkerRegistration.register();
 
 reportWebVitals();

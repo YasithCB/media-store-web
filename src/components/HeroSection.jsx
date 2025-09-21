@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../assets/css/hero-section.css";
-import HeroAnimation from "./HeroAnimation";
 import RobotImage from "../assets/images/view/robot-1-transparent.png";
 
 export default function HeroSection() {

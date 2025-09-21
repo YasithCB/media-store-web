@@ -1,0 +1,21 @@
+/* styles.css */
+.our-clients {
+    position: relative;
+}
+
+.clients-svg-wrapper {
+    overflow-x: auto; /* in case SVG is wide */
+    overflow-y: hidden;
+    padding: 10px 0;
+}
+
+.clients-svg {
+    max-width: 100%;
+    height: auto;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+}

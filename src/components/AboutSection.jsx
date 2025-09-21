@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import RobotWithLogo from "../assets/images/view/robot-with-logo.png";
 import TeamSlider from "./TeamSlider";
 
@@ -38,19 +38,6 @@ export default function AboutUs() {
               alt="robot-with-logo"
               className="img-fluid"
             />
-            {/*<Card className="ceo-card shadow-sm border-0">*/}
-            {/*  <Card.Img*/}
-            {/*    variant="top"*/}
-            {/*    src={ceoAvatar}*/}
-            {/*    alt="CEO"*/}
-            {/*    className="ceo-avatar"*/}
-            {/*  />*/}
-            {/*  <div className="text-center my-2">*/}
-            {/*    <h5 className="fw-bold">HUSSAIN ALDOUH</h5>*/}
-            {/*    <h6 className="m-0">CEO & Founder</h6>*/}
-            {/*    <h6>hussain@mediastore.ae</h6>*/}
-            {/*  </div>*/}
-            {/*</Card>*/}
           </Col>
         </Row>
 

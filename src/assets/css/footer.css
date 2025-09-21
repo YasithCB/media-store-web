@@ -1,0 +1,80 @@
+/* src/styles/footer.css */
+.footer-wrapper {
+    background: linear-gradient(135deg, #000000 0%, #222222 100%);
+    position: relative;
+    overflow: hidden;
+}
+.footer-wrapper::before {
+    /* subtle moving radial glow */
+    content: "";
+    position: absolute;
+    top: -40%;
+    left: -40%;
+    width: 180%;
+    height: 180%;
+    background: radial-gradient(circle at center, rgba(255,215,0,0.15) 0%, transparent 60%);
+    animation: slowSpin 30s linear infinite;
+    z-index: 0;
+}
+@keyframes slowSpin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+.footer-wrapper * {
+    position: relative; /* so glow stays behind */
+    z-index: 1;
+}
+
+.footer-logo {
+    max-width: 160px;
+}
+
+.footer-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ffd700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-links,
+.footer-contact {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-links li,
+.footer-contact li {
+    margin-bottom: 0.5rem;
+}
+.footer-links a {
+    color: #ccc !important;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.footer-links a:hover {
+    color: #ffd700 !important;
+    cursor: pointer;
+}
+.footer-contact li:hover {
+    color: #ffd700 !important;
+    cursor: pointer;
+}
+
+.footer-contact li svg {
+    margin-right: 8px;
+    color: #ffd700;
+}
+
+.footer-social a {
+    color: white !important;
+    font-size: 1.25rem;
+    transition: transform 0.3s ease;
+}
+.footer-social a:hover {
+    transform: scale(1.2);
+}
+
+.footer-divider {
+    border-color: rgba(255,255,255,0.1);
+}
