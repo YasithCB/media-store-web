@@ -1,0 +1,32 @@
+.artwork-blend {
+    mix-blend-mode: darken; /* or screen, overlay */
+}
+
+.hero-section {
+    position: relative;
+    min-height: 600px; /* adjust as needed */
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* Background image goes here */
+    background-image: url('https://t4.ftcdn.net/jpg/11/69/61/11/360_F_1169611104_goaxv62Oy6Vp65rLho5beDBSqVE1AMgD.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.2;            /* ← adjust this for desired faintness */
+    mix-blend-mode: darken;
+    z-index: 0;              /* behind the content */
+}
+
+.hero-section > .container {
+    position: relative;
+    z-index: 2; /* ensures content is above overlay */
+}

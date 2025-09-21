@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* bg */
+.bg-secondary-custom {
+  background-color: var(--bg-secondary) !important;
+}
+/* bg */
+
+/* text */
+.title {
+  font-size: 3rem;                /* Bigger text */
+  font-weight: 800;               /* Extra bold */
+  font-family: Calibri, serif;
+  background: linear-gradient(
+          90deg,
+          #bd7810,
+          #e8c100,
+          #ffa600,
+          #ff4d00,
+          #680000
+  );
+  -webkit-background-clip: text;  /* Clip the gradient to the text */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;          /* For modern browsers */
+  text-fill-color: transparent;   /* Fallback */
+}
+.text-outline-gradient {
+  font-size: 4.5rem;
+  font-weight: 900;
+  color: transparent;                 /* empty center */
+  -webkit-text-stroke: 4px yellow   /* solid stroke */
+}
+
+
+/* text */

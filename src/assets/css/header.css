@@ -1,0 +1,58 @@
+
+/* ===== Top contact bar ===== */
+header .top-bar {
+    background: var(--primary-color) !important;
+    height: 7vh;
+}
+header .bottom-bar {
+    height: 17vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    position: relative;
+    color: #333; /* Default link color */
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 1.15rem;
+}
+
+/* Hover Effect */
+.navbar-nav .nav-link:hover {
+    color: #ffe200; /* Change to your accent color */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+/* Underline Animation */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e3c700; /* Accent underline color */
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+/* Active Link Styling */
+.navbar-nav .nav-link.active {
+    color: #b6a005;
+}
+
+.navbar-nav .nav-link.active::after {
+    width: 100%;
+}
