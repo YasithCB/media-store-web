@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/media-store-web/static/css/main.26a8aef8.css",
-    "main.js": "/media-store-web/static/js/main.de96de1c.js",
+    "main.css": "/media-store-web/static/css/main.b1700c92.css",
+    "main.js": "/media-store-web/static/js/main.5c3c2853.js",
     "static/js/453.e8eecc0d.chunk.js": "/media-store-web/static/js/453.e8eecc0d.chunk.js",
+    "static/media/our-clients.svg": "/media-store-web/static/media/our-clients.b695f2efd4805e34a1ba7b11bca111ba.svg",
     "static/media/robot-with-logo.png": "/media-store-web/static/media/robot-with-logo.221d88924a09658b0f2e.png",
     "static/media/robot-1-transparent.png": "/media-store-web/static/media/robot-1-transparent.1b54a0636b2c2fae4e30.png",
     "static/media/m2.jpg": "/media-store-web/static/media/m2.9918c52b67a54980eb90.jpg",
+    "static/media/banner-with-robot.png": "/media-store-web/static/media/banner-with-robot.94213799e38bafc84f99.png",
     "static/media/m1.jpg": "/media-store-web/static/media/m1.eb796252c6f42b7d9182.jpg",
     "static/media/1.png": "/media-store-web/static/media/1.992a1896897afa3a620a.png",
+    "static/media/logo-white.png": "/media-store-web/static/media/logo-white.f308b35936b679c5c1f7.png",
     "static/media/2.svg": "/media-store-web/static/media/2.ba9fe612734efb901f1f6ca1820323b2.svg",
     "static/media/1.svg": "/media-store-web/static/media/1.1808b5ad8e5452bbcb80bd430d5369de.svg",
     "static/media/6.svg": "/media-store-web/static/media/6.6b80092e7edb09b962a913bf435a2a2d.svg",
@@ -17,12 +20,12 @@
     "static/media/3.svg": "/media-store-web/static/media/3.369c6a0c15897fe6e085487d1afbc034.svg",
     "static/media/7.svg": "/media-store-web/static/media/7.37694f955d339897400be0c063e080ca.svg",
     "index.html": "/media-store-web/index.html",
-    "main.26a8aef8.css.map": "/media-store-web/static/css/main.26a8aef8.css.map",
-    "main.de96de1c.js.map": "/media-store-web/static/js/main.de96de1c.js.map",
+    "main.b1700c92.css.map": "/media-store-web/static/css/main.b1700c92.css.map",
+    "main.5c3c2853.js.map": "/media-store-web/static/js/main.5c3c2853.js.map",
     "453.e8eecc0d.chunk.js.map": "/media-store-web/static/js/453.e8eecc0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26a8aef8.css",
-    "static/js/main.de96de1c.js"
+    "static/css/main.b1700c92.css",
+    "static/js/main.5c3c2853.js"
   ]
 }
